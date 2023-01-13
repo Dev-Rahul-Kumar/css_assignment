@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
+* {
+  /* padding: 0; */
+  /* margin: 0; */
+  box-sizing: border-box;
+}
+
 .App {
+
   text-align: center;
   /* font-family: 'Poppins', sans-serif; */
   font-family: 'Satisfy', 'cursive';
@@ -10,5 +17,388 @@
   font-size: 32px;
   line-height: 30px;
   color: #000000;
-  ;
+
+}
+
+.gallary {
+  margin-left: 30px;
+  border: #e40f0f;
+  margin-top: 20px;
+}
+
+.gallary .h2 {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.gallary .css {
+  width: 80px;
+  height: 3px;
+  background: #342679;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: auto;
+
+}
+
+.gallary .twodiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.gallary .gal {
+  background-image: url(./img/Bitmapimage.png.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 62%;
+  height: 615px;
+  display: flex;
+  flex-direction: column-reverse;
+  border-radius: 20px;
+}
+
+.gallary .gal .content {
+  color: white;
+  padding: 10px;
+  background-color: #1152e065;
+
+
+
+}
+
+.gallary .gal .content .rated {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+
+}
+
+.gallary .gal .content .rated .button {
+  box-sizing: border-box;
+  border: 1px solid #FFFFFF;
+  border-radius: 25px;
+  width: 172px;
+  height: 35px;
+  background: transparent;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.gallary .gal .content .rated img {
+  background: transparent;
+  width: 10px;
+  height: 10px;
+}
+
+.gallary .gal2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 55%;
+  border: #000000;
+  padding-left: 16px;
+}
+
+.gallary .gal2 .width {
+  width: 295px;
+  height: 295px;
+}
+
+.gallary .gal2 .div1 {
+  background-image: url(./img/Bitmapchips.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* width: 280px;
+  height: 285px; */
+  font-size: 9px;
+  display: flex;
+  flex-direction: column-reverse;
+  border-radius: 20px;
+  box-sizing: border-box;
+
+}
+
+.gallary .gal2 .div .content {
+  color: black;
+  padding: 10px;
+  background-color: #fbfcff75;
+  height: 40%;
+
+
+}
+
+.gallary .gal2 .div .content .rated {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+
+}
+
+.gallary .gal2 .div .content .rated .button {
+  box-sizing: border-box;
+  border: 1px solid #FFFFFF;
+  border-radius: 25px;
+  width: 95px;
+  height: 25px;
+  background: transparent;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #000000;
+  font-size: 9px;
+}
+
+.gallary .gal2 .div .content .rated img {
+  background: transparent;
+  width: 10px;
+  height: 10px;
+}
+
+
+.gallary .gal2 .div2 {
+  background-image: url(./img/Bitmapchicken.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* width: 280px;
+  height: 285px; */
+  font-size: 8px;
+  display: flex;
+  flex-direction: column-reverse;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.gallary .gal2 .div3 {
+  background-image: url(./img/Bitmapcake.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* width: 280px;
+  height: 285px; */
+  font-size: 8px;
+  display: flex;
+  flex-direction: column-reverse;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.gallary .gal2 .div4 {
+  background-image: url(./img/Bitmapdonald.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* width: 280px;
+  height: 285px; */
+  font-size: 8px;
+  display: flex;
+  flex-direction: column-reverse;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  margin-top: 20px;
+
+}
+
+.article .summary {
+  padding: 12px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  width: 500px;
+}
+
+.article .summary p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9.5px;
+}
+
+.topchef .headline .h2 {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 3px;
+
+}
+
+.topchef .headline .css {
+  width: 80px;
+  height: 3px;
+  background: #342679;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: auto;
+
+}
+
+.topchef .chefs {
+  background-image: url(./img/image2chefbg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  color: #FFFFFF;
+
+}
+
+.topchef .chefs .user img {
+  border-radius: 50%;
+  width: 60px;
+}
+
+.topchef .chefs .user h4 {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.topchef .chefs .user p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.topchef .chefs .jr {
+  background-color: #FFFFFF;
+  text-align: center;
+  color: #2B2B2B;
+  border-radius: 15px;
+  width: 355px;
+  height: 250px;
+  padding-top: 15px;
+  font-size: 16px;
+
+}
+
+.topchef .chefs .jr p {
+  font-size: 14px;
+}
+
+.topchef .chefs .jr img {
+  width: 70px;
+}
+
+.banner {
+  background: url(./img/4thFoodBanner3foodbanner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 8px;
+}
+
+
+.banner .headline .h2 {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 3px;
+  margin-bottom: 5px;
+
+}
+
+.banner .headline .css {
+  width: 100px;
+  height: 3px;
+  background: #342679;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: auto;
+
+}
+
+.banner .foods {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+
+.banner .foodone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner .foodone .width {
+  width: 466px;
+  font-size: 14px;
+  height: 400px;
+  text-align: center
+}
+
+.banner .foodtwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner .foodtwo .width {
+  width: 466px;
+  font-size: 14px;
+  height: 400px;
+  text-align: center
+}
+
+.banner .foods .fruits img {
+  background-color: #4e4096;
+  border-radius: 50%;
+  width: 83px;
+  height: 77px;
+  padding: 19px
+}
+
+.banner .foods .grains img {
+  background-color: #4e4096;
+  border-radius: 50%;
+  width: 83px;
+  height: 77px;
+  padding: 19px
+}
+
+.banner .foods .proteins img {
+  background-color: #4e4096;
+  border-radius: 50%;
+  width: 83px;
+  height: 77px;
+  padding: 19px
+}
+
+.banner .foods .veg img {
+  background-color: #4e4096;
+  border-radius: 50%;
+  width: 83px;
+  height: 77px;
+  padding: 19px
 }
